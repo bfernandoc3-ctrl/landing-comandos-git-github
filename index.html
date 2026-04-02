@@ -8,10 +8,48 @@
 </head>
 
 <body class="bg-slate-900 text-slate-200 p-4">
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
     <main class="max-w-3xl mx-auto">
         <div class="bg-slate-800/40 border border-slate-700 rounded-xl p-5 mb-6">
             <div class="bg-indigo-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm mb-3">01</div>
-            <h3 class="font-bold text-white uppercase text-xs">Inicializar Proyecto</h3>
+            <h3 class="font-bold text-white uppercase text-xs">INICIALIZAR PROYECTO</h3>
             <div class="bg-black/60 p-4 rounded font-mono text-emerald-400 text-sm border-l-4 border-indigo-500 mt-3">
                 mkdir proyecto-git<br>
                 cd proyecto-git <br>
@@ -21,7 +59,7 @@
 
        <div class="bg-slate-800/40 border border-slate-700 rounded-xl p-5 mb-6">
             <div class="bg-indigo-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm mb-3">02</div>
-            <h3 class="font-bold text-white uppercase text-xs">Primer commit Local</h3>
+            <h3 class="font-bold text-white uppercase text-xs">PRIMER COMMIT LOCAL</h3>
             <div class="bg-black/60 p-4 rounded font-mono text-emerald-400 text-sm border-l-4 border-indigo-500 mt-3">
                 git add .<br>
                 cd proyecto-git <br>
@@ -45,9 +83,9 @@
 
        <div class="bg-slate-800/40 border border-slate-700 rounded-xl p-5 mb-6">
             <div class="bg-indigo-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm mb-3">05</div>
-            <h3 class="font-bold text-white uppercase text-xs">Primer commit Local</h3>
+            <h3 class="font-bold text-white uppercase text-xs">El gran push</h3>
             <div class="bg-black/60 p-4 rounded font-mono text-emerald-400 text-sm border-l-4 border-indigo-500 mt-3">
-                <span class="text-white">git push -u origin master</span>
+                <span class="text-white">git push origin master</span>
             </div>    
        </div>
 
